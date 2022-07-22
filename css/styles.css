@@ -621,6 +621,12 @@ background-color: var(--accent-txt-cl);
     cursor: pointer;
 }
 
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 
 /* Portfolio.html */
 
