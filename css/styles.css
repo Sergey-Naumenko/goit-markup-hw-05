@@ -183,6 +183,8 @@ img {
 
 }
 
+/* решить вопрос с подчеркиванием */
+
 .header-nav-link-current::after {
     content: '';
     position: absolute;
@@ -234,6 +236,10 @@ opacity: 1;
 
     transition: color var(--timing-function);
 
+}
+
+.nav-icon {
+    transition: fill var(--timing-function);
 }
 
 .contact-mail-link:hover,
@@ -438,6 +444,10 @@ border-radius: 0px 0px 4px 4px;
     gap: 10px;
 }
 
+.social-icon {
+    transition: fill var(--timing-function);
+}
+
 .socials-link {
     display: flex;
     justify-content: center;
@@ -446,7 +456,7 @@ border-radius: 0px 0px 4px 4px;
     height: 44px;
     border-radius: 50%;
 
-    transition: background-color var(--timing-function), fill var(--timing-function);
+    transition: background-color var(--timing-function);
 
 }
 
@@ -492,11 +502,12 @@ background-color: var(--accent-txt-cl);
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
-    transition: border-color var(--timing-function), fill var(--timing-function);
+    transition: border-color var(--timing-function);
 }
 
 .client-icon {
     fill: var(--social-icon-cl-team);
+    transition: fill var(--timing-function);
 }
 
 .client-link:hover {
